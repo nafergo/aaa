@@ -11,9 +11,6 @@ hero:
     search: true
 category:
     columns: 3
-featured:
-    title: Featured Articles
-    tag: featured
 cta:
     title: Nenašli jste, co jste hledali?
     subtitle: Dejte nám vědět. Rádi poradíme nebo s vámi jen zajdeme na kafe.

@@ -82,21 +82,6 @@ function showContainer(id) {
 
         <div class="uk-article-content">{{ content }}</div>
 
-        {% if page.featured.tag %}
-        <div>
-            {% if page.featured.title %}
-            <h2 class="section-title-primary">{{ page.featured.title }}
-                <a href="#" data-uk-totop data-uk-scroll="duration: 400" class="uk-float-right uk-margin-small-top"></a>
-            </h2>
-            {% endif %}
-            <ul class="uk-list uk-list-large link-icon-right">
-            {% for post in site.tags[page.featured.tag] %}
-                <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
-            {% endfor %}
-            </ul>
-        </div>
-        {% endif %}
-
         <div id="category-section" class="uk-margin-large-top hidden">
             <hr>
             {% for category in site.categories %}

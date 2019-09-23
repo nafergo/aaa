@@ -220,9 +220,6 @@ hero:
     search: true            # enable search
 category:
     columns: 3              # number of category columns; 1, 2, 3, 4
-featured:
-    title: Featured Articles
-    tag: featured           # tag used to populate featured section on home page
 ---
 ```
 

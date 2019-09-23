@@ -1,9 +1,10 @@
 # Navbar menu navigation links
-- title: Help
-  url: /
 
-- title: Faq
-  url: /faq/
+- title: Agile CZ
+  url: https://agilecz.cz
 
-- title: Contact
+- title: Agilní kalendář
+  url: https://agilnikalendar.cz
+
+- title: Kontakt
   url: /contact/

@@ -1,7 +1,7 @@
 ---
 layout: help
 title: Agile Wiki
-subtitle: Podporováno českou Agilní komunitou
+subtitle: 'Podporováno českou Agilní komunitou agilecz.cz'
 hero:
     background: "#663399"
     image: header_2.jpg

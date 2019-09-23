@@ -1,10 +1,10 @@
 # Footer navigation links
 
-- title: Help
-  url: /
+- title: Agile CZ
+  url: https://agilecz.cz
 
-- title: Faq
-  url: /faq/
+- title: Agilní kalendář
+  url: https://agilnikalendar.cz
 
-- title: Contact
+- title: Kontakt
   url: /contact/

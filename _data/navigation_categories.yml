@@ -1,15 +1,39 @@
 # Categories home page navigation
 
-- heading: Browse All Topics
+- heading: Všechna témata
   categories:
-    - title: Getting Started
-      desc: Get your account up and running in just few easy steps
+    - title: Co je to Agile
+      desc: Srozumitelný úvod do agilních metodik.
       icon: settings
 
-    - title: Account and Billing
+    - title: Principy
       desc: Managing your account, creating new users and exporting data
       icon: credit-card
 
-    - title: Troubleshooting
+    - title: Scrum
       desc: Answers to most common configuration issues
       icon: cog
+
+    - title: Leadership
+      desc: Managing your account, creating new users and exporting data
+      icon: plus
+
+    - title: Koučování
+      desc: Get your account up and running in just few easy steps
+      icon: plus
+
+    - title: Agilní metodiky
+      desc: Managing your account, creating new users and exporting data
+      icon: plus
+
+    - title: Produkt
+      desc: Answers to most common configuration issues
+      icon: plus
+
+    - title: Technická excelence
+      desc: Get your account up and running in just few easy steps
+      icon: plus
+
+    - title: Firemní kultura
+      desc: Answers to most common configuration issues
+      icon: plus

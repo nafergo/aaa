@@ -29,11 +29,7 @@ github_username:    ivanchromjak
 
 # Default footer image settings
 footer:
-    copyright: 'Podporováno <a href="https://agilecz.cz">českou Agilní komunitou</a>'
-
-# Disqus comments shortname, requires Disqus account https://disqus.com/
-disqus:
-    shortname:      # 7865
+    copyright: 'Podporováno <a href="https://agilecz.cz">českou Agilní komunitou</a>. Vytvořil <a href="https://lukasbednarik.cz">Lukáš Bednařík</a>.'
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:
@@ -46,7 +42,6 @@ post_assets:        /assets/posts/
 
 # Build settings
 markdown:           kramdown
-highlighter:        rouge
 
 gems:
   - jekyll-feed
@@ -59,7 +54,3 @@ exclude:
 
 sass:
   style:            compressed
-
-collections:
-  faqs:
-    output: false

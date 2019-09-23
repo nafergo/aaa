@@ -1,33 +1,17 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site title and description
-title:              Desk
+title: Agile Wiki
 description:        Knowledge base Jekyll theme.
-
-# Site subpath, e.g. /blog
-baseurl:            ""
-
-# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 permalink:          /:title/
-
-# Site base hostname & protocol, e.g. http://example.com
-url:                "https://desk.jekyll.plus"
-
-# Site logo, dark and light depending on page hero text setting dark/light
+url:                "https://agilewiki.cz"
 logo_image:
     light:          logo-light.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
     dark:           logo-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
 
 # Author settings, displayed on about page
 author:
-    name:           John Smith
-    email:
-    website:
-    facebook:       https://www.facebook.com/
+    name: 'Lukáš Bednařík'
+    email: 'lukas@lukasbednarik.cz'
+    website: 'https://lukasbednarik.cz'
+    facebook: https://www.facebook.com/
     flickr:
     dribbble:
     github:
@@ -45,7 +29,7 @@ github_username:    ivanchromjak
 
 # Default footer image settings
 footer:
-    copyright:      Made by a <a href="https://ivanchromjak.com/">human</a> somewhere on the planet earth.
+    copyright: 'Podporováno <a href="https://agilecz.cz">českou Agilní komunitou</a>'
 
 # Disqus comments shortname, requires Disqus account https://disqus.com/
 disqus:

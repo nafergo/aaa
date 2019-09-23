@@ -1,7 +1,7 @@
 ---
 layout: help
-title: How Can We Help?
-subtitle: Find advice and answers from our support team fast or get in touch
+title: Agile Wiki
+subtitle: Podporováno českou Agilní komunitou
 hero:
     background: "#663399"
     image: header_2.jpg
@@ -15,8 +15,8 @@ featured:
     title: Featured Articles
     tag: featured
 cta:
-    title: Didn't find an answer to your question?
-    subtitle: Get in touch with us for details on additional services and custom work pricing
-    button_text: Contact Us   
-    button_url: /contact/      
+    title: Nenašli jste, co jste hledali?
+    subtitle: Dejte nám vědět. Rádi poradíme nebo s vámi jen zajdeme na kafe.
+    button_text: Napište nám email
+    button_url: /contact/
 ---

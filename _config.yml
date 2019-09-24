@@ -1,35 +1,32 @@
-title: Agile Wiki
-description:        Knowledge base Jekyll theme.
-permalink:          /:title/
-url:                "https://agilewiki.cz"
+title: Agile wiki
+description: 'Znalostní databáze a inspirace'
+permalink: /:title/
+url: 'https://agilewiki.cz'
 logo_image:
-    light:          logo-light.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
-    dark:           logo-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+    light: logo-light.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
+    dark: logo-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
 
 # Author settings, displayed on about page
 author:
     name: 'Lukáš Bednařík'
-    email: 'lukas@lukasbednarik.cz'
+    email: lukas@lukasbednarik.cz
     website: 'https://lukasbednarik.cz'
-    facebook: https://www.facebook.com/
-    flickr:
-    dribbble:
-    github:
-    googleplus:
-    instagram:      https://www.instagram.com/
-    linkedin:
+    facebook: 'https://www.facebook.com/lukasbednarikcz'
+    github: 'https://github.com/lukasbednarik'
+    instagram:
+    linkedin: 'https://www.linkedin.com/company/lukasbednarikcz/'
     pinterest:
-    twitter:        https://twitter.com/
-    vimeo:          https://vimeo.com/
+    twitter: 'https://twitter.com/lukasbednarikcz'
+    vimeo:
     youtube:
 
 # Social share buttons
-twitter_username:   ivanchromjak
-github_username:    ivanchromjak
+twitter_username: lukasbednarikcz
+github_username: lukasbednarik
 
 # Default footer image settings
 footer:
-    copyright: 'Podporováno <a href="https://agilecz.cz">českou Agilní komunitou</a>. Vytvořil <a href="https://lukasbednarik.cz">Lukáš Bednařík</a>.'
+    copyright: ' Vytvořil <a href="https://lukasbednarik.cz">Lukáš Bednařík</a>. Podporováno <a href="https://agilecz.cz">českou Agilní komunitou</a>.'
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:
@@ -38,10 +35,10 @@ google_analytics:
 google_maps_api_key:
 
 # Path to post content assets directory i.e post images, pdfs etc
-post_assets:        /assets/posts/
+post_assets: /assets/posts/
 
 # Build settings
-markdown:           kramdown
+markdown: kramdown
 
 gems:
   - jekyll-feed
@@ -53,4 +50,4 @@ exclude:
   - node_modules
 
 sass:
-  style:            compressed
+  style: compressed

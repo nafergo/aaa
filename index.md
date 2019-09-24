@@ -1,10 +1,10 @@
 ---
 layout: help
-title: Agile Wiki
+title: Agile wiki
 subtitle: 'Podporováno českou Agilní komunitou agilecz.cz'
 hero:
     background: "#663399"
-    image: header_2.jpg
+    image: header.jpg
     overlay: "linear-gradient(-200deg, rgba(101, 51, 153, 0.9) 0%, rgba(90, 51, 153, 0.9) 53%, rgba(71, 51, 153, 0.9) 100%)"
     align: center
     text: light

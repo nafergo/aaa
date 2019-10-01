@@ -26,7 +26,7 @@ github_username: lukasbednarik
 
 # Default footer image settings
 footer:
-    copyright: ' Vytvořil <a href="https://lukasbednarik.cz">Lukáš Bednařík</a>. Podporováno <a href="https://agilecz.cz">českou Agilní komunitou</a>.'
+    copyright: ' Vytvořil <a href="https://lukasbednarik.cz">Lukáš Bednařík</a>. Podporováno <a href="https://agilebar.cz">českou Agilní komunitou</a>.'
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:

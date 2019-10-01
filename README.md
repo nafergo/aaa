@@ -103,14 +103,6 @@ To enable Google Anaytics, add the following lines to your Jekyll site:
 
 Google Analytics will only appear in production, i.e., `JEKYLL_ENV=production`
 
-### Google Map
-
-To display Google map on contact page, add the following in your page content, replacing latitude, longitude and zoom values:
-
-```yaml
-{% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}
-```
-
 ### Contact Form (via FormSpree)
 
 Submit the form and confirm your email address at [FormSpree](https://formspree.io/). Then add the following lines to contact page YAML Front Matter, replacing the email address:

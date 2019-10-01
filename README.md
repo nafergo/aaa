@@ -110,7 +110,7 @@ Submit the form and confirm your email address at [FormSpree](https://formspree.
 ```yaml
 formspree:
     email: my_name@gmail.com
-    redirect: /thanks/
+    redirect: /email-uspesne-odeslan/
 ```
 
 ### Update favicon

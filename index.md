@@ -15,5 +15,5 @@ cta:
     title: Nenašli jste, co jste hledali?
     subtitle: Dejte nám vědět. Rádi poradíme nebo s vámi jen zajdeme na kafe.
     button_text: Napište nám email
-    button_url: /contact/
+    button_url: /kontakt/
 ---

@@ -18,16 +18,25 @@ layout: default
             </div>
 
             <p class="uk-article-meta">
-              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
-                {{ page.date | date: date_format }}
-              </time>
               {% if page.author %}
                 {% assign author = page.author %}
               {% else %}
                 {% assign author = site.author.name %}
               {% endif %}
-              by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ author }}</span></span>
+              {% if page.author-link %}
+                {% assign author-link = page.author-link %}
+              {% else %}
+                {% assign author-link = site.author.website %}
+              {% endif %}
+              Autor stránky:
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span itemprop="name"><a href="{{ author-link }}">{{ author }}</a></span>
+              </span>
+            <br />
+              Poslední update:
+              <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {% include article-date.html date=page.date %}
+              </time>
             </p>
 
             {% include related.html %}

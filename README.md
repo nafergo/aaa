@@ -81,12 +81,6 @@ Set in the main navigation links in `_data/navigation_header.yml`:
 
 ### Footer
 
-Edit copyright notice in `_config.yml`:
-```yaml
-footer:
-    copyright:
-```
-
 Set in the navigation links in `_data/navigation_footer.yml`:
 ```yaml
 - title: About

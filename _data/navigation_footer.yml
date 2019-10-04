@@ -1,13 +1,13 @@
 # Footer navigation links
 
-- title: Agile bar
-  url: https://agilebar.cz
-
 - title: Agilní kalendář
   url: https://agilnikalendar.cz
 
 - title: Coding Dojo
   url: https://codingdojobrno.cz
+
+- title: Konzultace
+  url: https://lukasbednarik.cz
 
 - title: Kontakt
   url: /kontakt/

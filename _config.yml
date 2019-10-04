@@ -14,7 +14,7 @@ author:
     facebook: 'https://www.facebook.com/lukasbednarikcz'
     github: 'https://github.com/lukasbednarik'
     instagram:
-    linkedin: 'https://www.linkedin.com/company/lukasbednarikcz/'
+    linkedin: 'https://www.linkedin.com/in/lukasbednarik/'
     pinterest:
     twitter: 'https://twitter.com/lukasbednarikcz'
     vimeo:
@@ -23,10 +23,6 @@ author:
 # Social share buttons
 twitter_username: lukasbednarikcz
 github_username: lukasbednarik
-
-# Default footer image settings
-footer:
-    copyright: ' Vytvořil <a href="https://lukasbednarik.cz">Lukáš Bednařík</a>. Podporováno <a href="https://agilebar.cz">českou Agilní komunitou</a>.'
 
 # Google analytics code, get your code here https://www.google.com/analytics/
 google_analytics:
@@ -40,10 +36,9 @@ post_assets: /assets/posts/
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-feed
+plugins:
   - jekyll-seo-tag
-  - jekyll-gist
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

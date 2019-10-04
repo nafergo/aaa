@@ -7,4 +7,7 @@ formspree:
     redirect: /email-uspesne-odeslan/
 ---
 
-Submit the form and confirm your email address at [FormSpree](https://formspree.io/). Then add the following lines to contact page YAML Front Matter.
+Správcem webu je [Lukáš Bednařík](https://lukasbednarik.cz).
+Kontaktovat jej můžete na
+[lukas@lukasbednarik.cz](mailto:lukas@lukasbednarik.cz)
+nebo přes formulář níže.

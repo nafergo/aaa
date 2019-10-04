@@ -1,0 +1,19 @@
+{{ include.date | date: "%-d" }}
+.&nbsp;
+{%- assign month = include.date | date: '%-m' -%}
+{%- case month -%}
+{%- when '1' -%}leden
+{%- when '2' -%}únor
+{%- when '3' -%}březen
+{%- when '4' -%}duben
+{%- when '5' -%}květen
+{%- when '6' -%}červen
+{%- when '7' -%}červenec
+{%- when '8' -%}srpen
+{%- when '9' -%}září
+{%- when '10' -%}říjen
+{%- when '11' -%}listopad
+{%- when '12' -%}prosinec
+{%- endcase -%}
+&nbsp;
+{{ include.date | date: "%Y" }}

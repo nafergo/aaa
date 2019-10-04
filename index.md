@@ -1,7 +1,9 @@
 ---
 layout: help
 title: Agile wiki
-subtitle: 'Podporováno českou Agilní komunitou agilebar.cz'
+subtitle: 'je nejúplnější česká agilní encyklopedie.
+  <br />Naší misí je zvětšování agilní osvěty tím,
+  že usnadňujeme vyhledávání informací.'
 hero:
     background: "#663399"
     image: header.jpg

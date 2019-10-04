@@ -2,38 +2,26 @@
 
 - heading: Všechna témata
   categories:
-    - title: Co je to Agile
+    - title: Agilní metodiky
       desc: Srozumitelný úvod do agilních metodik.
+      icon: plus
+
+    - title: Praktiky
+      desc: Některé praktiky Agilních metodik mohou fungovat i samostatně...
       icon: settings
 
-    - title: Principy
-      desc: Managing your account, creating new users and exporting data
-      icon: credit-card
-
-    - title: Scrum
-      desc: Answers to most common configuration issues
-      icon: cog
-
-    - title: Leadership
-      desc: Managing your account, creating new users and exporting data
-      icon: plus
-
-    - title: Koučování
-      desc: Get your account up and running in just few easy steps
-      icon: plus
-
-    - title: Agilní metodiky
-      desc: Managing your account, creating new users and exporting data
-      icon: plus
-
-    - title: Produkt
-      desc: Answers to most common configuration issues
+    - title: Firemní kultura
+      desc: Kultura je systém všech významů, činností a vzorců chování, které nejsou člověku vrozené.
       icon: plus
 
     - title: Technická excelence
-      desc: Get your account up and running in just few easy steps
+      desc: Na konci dne jsou to vždy vývojáři, kdo vytvoří váš produkt.
       icon: plus
 
-    - title: Firemní kultura
-      desc: Answers to most common configuration issues
+    - title: Leadership
+      desc: Jak vést lidi a vytvářet podporující prostředí.
+      icon: plus
+
+    - title: Produkt
+      desc: Agilní přístup ke tvorbě produktu a lean startup.
       icon: plus

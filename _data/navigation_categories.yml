@@ -4,24 +4,24 @@
   categories:
     - title: Agilní metodiky
       desc: Srozumitelný úvod do agilních metodik.
-      icon: plus
+      icon: agile-process
 
     - title: Praktiky
       desc: Některé praktiky Agilních metodik mohou fungovat i samostatně...
-      icon: settings
+      icon: practices
 
     - title: Firemní kultura
       desc: Kultura je systém všech významů, činností a vzorců chování, které nejsou člověku vrozené.
-      icon: plus
+      icon: corporate-culture
 
     - title: Technická excelence
       desc: Na konci dne jsou to vždy vývojáři, kdo vytvoří váš produkt.
-      icon: plus
+      icon: technical
 
     - title: Leadership
       desc: Jak vést lidi a vytvářet podporující prostředí.
-      icon: plus
+      icon: leadership
 
     - title: Produkt
       desc: Agilní přístup ke tvorbě produktu a lean startup.
-      icon: plus
+      icon: product

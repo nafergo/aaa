@@ -52,7 +52,7 @@ function showContainer(id) {
     <div class="uk-container">
         {% for section in site.data.navigation_categories %}
             {% if section.heading %}
-                <h2 class="uk-text-center section-title section-title-primary">{{ section.heading }}</h2>
+                <h2 id="{{ section.heading | slugify: 'latin' }}" class="uk-text-center section-title section-title-primary">{{ section.heading }}</h2>
             {% endif %}
             <div class="uk-child-width-1-{{ columns }}@m uk-grid-match uk-text-center" data-uk-grid>
             {% for category in section.categories %}
@@ -89,7 +89,7 @@ function showContainer(id) {
 
             <div id="{{ category_name | slugify: 'latin' }}-container" class="category-container hidden">
                 <h2 class="section-title-primary">{{ category_name }}
-                    <a href="#" data-uk-totop data-uk-scroll="duration: 400" class="uk-float-right uk-margin-small-top"></a>
+                    <a href="#vsechna-temata" data-uk-totop data-uk-scroll="duration: 400" class="uk-float-right uk-margin-small-top"></a>
                 </h2>
                 <ul class="uk-list uk-list-large link-icon-right uk-margin-remove">
                 {% assign cat = site.categories[category_name] | sort: 'date' %}

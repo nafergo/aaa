@@ -82,6 +82,10 @@ function showContainer(id) {
 
         <div class="uk-article-content">{{ content }}</div>
 
+
+
+
+
         <div id="category-section" class="uk-margin-large-top hidden">
             <hr>
             {% for category in site.categories %}
@@ -89,7 +93,7 @@ function showContainer(id) {
 
             <div id="{{ category_name | slugify: 'latin' }}-container" class="category-container hidden">
                 <h2 class="section-title-primary">{{ category_name }}
-                    <a href="#vsechna-temata" data-uk-totop data-uk-scroll="duration: 400" class="uk-float-right uk-margin-small-top"></a>
+                    <a href="#{{ section.heading | slugify: 'latin' }}" data-uk-totop data-uk-scroll="duration: 400" class="uk-float-right uk-margin-small-top"></a>
                 </h2>
                 <ul class="uk-list uk-list-large link-icon-right uk-margin-remove">
                 {% assign cat = site.categories[category_name] | sort: 'date' %}

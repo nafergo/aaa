@@ -11,6 +11,8 @@ hero:
     align: center
     text: light
     search: true
+featured:
+    title: "Nové stránky"
 category:
     columns: 3
 cta:

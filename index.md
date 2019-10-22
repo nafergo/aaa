@@ -12,7 +12,7 @@ hero:
     text: light
     search: true
 featured:
-    title: "Nové stránky"
+    title: "Nově přidané stránky"
 category:
     columns: 3
 cta:

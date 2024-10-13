@@ -1,7 +1,7 @@
 title: Agile wiki
 description: 'Znalostní databáze a inspirace'
 permalink: /:title/
-url: 'https://agilewiki.cz'
+url: 'https://nafergo.github.io/aaa'
 logo_image:
     light: logo-light.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
     dark: logo-dark.svg  # e.g. logo.png, upload logo image file to /assets/posts/ folder
